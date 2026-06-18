@@ -545,4 +545,4 @@ export function initializeSeedData() {
   if (!localStorage.getItem('sportzone_wishlist')) {
     localStorage.setItem('sportzone_wishlist', JSON.stringify([]));
   }
-}
+} 
