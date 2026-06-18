@@ -538,6 +538,7 @@ export function initializeSeedData() {
     localStorage.setItem('sportzone_requests', JSON.stringify(seedRequests));
   }
 
+
   if (!localStorage.getItem('sportzone_cart')) {
     localStorage.setItem('sportzone_cart', JSON.stringify([]));
   }
